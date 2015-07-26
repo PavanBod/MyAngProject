@@ -1,0 +1,26 @@
+﻿<div class="appTitleBar">
+    <div class="row">
+        <div class="appLogoArea col-sm-6">
+            <img class="appIcon" ng-src="{{iconFile}}" />
+            <div class="appTitleArea">
+                <p class="appLogoTitle">{{title}}</p>
+                <p class="appLogoSubTitle">{{subtitle}}</p>
+            </div>
+            <div ng-if="isNavigationButtonVisible" ng-click="navigationButtonClicked()"
+                 class="appNavigationCollapsed pull-right">
+                <button type="button" class="btn appNavigationButton">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <div class="appInteractive col-sm-6">
+            <div>
+                <app-user-profile user-name="{{$root.userName}}"></app-user-profile>
+            </div>
+        </div>
+    </div>
+</div>
+<div ng-transclude></div>
+<div ng-view class="appViewArea"
+     ng-class="{'appViewAreaFullWidth' : !isNavigationAreaVisible}">
+</div>

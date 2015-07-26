@@ -1,0 +1,12 @@
+﻿.appUserProfileSmall{
+    color: #333;
+    padding-top: 4px;
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.appUserProfileSmall > span{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

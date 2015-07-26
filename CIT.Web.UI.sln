@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIT.Web.UI", "CIT.Web.UI\CIT.Web.UI.csproj", "{DA0B6FC8-F8C4-47E7-A2AE-44018A519588}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIT.Models", "CIT.Models\CIT.Models.csproj", "{DABC278E-A2C3-4323-8177-A280F43BE14C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIT.DAL", "CIT.DAL\CIT.DAL.csproj", "{847FEB22-47E5-4F14-BDF0-B2653E8DF55C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIT.Common", "CIT.Common\CIT.Common.csproj", "{AA07CA3A-93E4-400A-820C-4B3D4092E777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIT.Web.Application", "CIT.Web.Application\CIT.Web.Application.csproj", "{66C0C25E-477D-4C94-9056-EDB043917629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIT.Web.Services", "CIT.Web.Services\CIT.Web.Services.csproj", "{6024F9F0-C5E4-43C0-BF2B-9A999A093223}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{AE1C3C48-5DFC-4B16-A8FE-1FEFF08EE02A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA0B6FC8-F8C4-47E7-A2AE-44018A519588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA0B6FC8-F8C4-47E7-A2AE-44018A519588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA0B6FC8-F8C4-47E7-A2AE-44018A519588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA0B6FC8-F8C4-47E7-A2AE-44018A519588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DABC278E-A2C3-4323-8177-A280F43BE14C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DABC278E-A2C3-4323-8177-A280F43BE14C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DABC278E-A2C3-4323-8177-A280F43BE14C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DABC278E-A2C3-4323-8177-A280F43BE14C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{847FEB22-47E5-4F14-BDF0-B2653E8DF55C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{847FEB22-47E5-4F14-BDF0-B2653E8DF55C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{847FEB22-47E5-4F14-BDF0-B2653E8DF55C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{847FEB22-47E5-4F14-BDF0-B2653E8DF55C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA07CA3A-93E4-400A-820C-4B3D4092E777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA07CA3A-93E4-400A-820C-4B3D4092E777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA07CA3A-93E4-400A-820C-4B3D4092E777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA07CA3A-93E4-400A-820C-4B3D4092E777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C0C25E-477D-4C94-9056-EDB043917629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C0C25E-477D-4C94-9056-EDB043917629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C0C25E-477D-4C94-9056-EDB043917629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C0C25E-477D-4C94-9056-EDB043917629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6024F9F0-C5E4-43C0-BF2B-9A999A093223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6024F9F0-C5E4-43C0-BF2B-9A999A093223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6024F9F0-C5E4-43C0-BF2B-9A999A093223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6024F9F0-C5E4-43C0-BF2B-9A999A093223}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Security.Cryptography.5.0.505.0\lib\NET35
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = D:\My Projects\CIT\packages
+	EndGlobalSection
+EndGlobal

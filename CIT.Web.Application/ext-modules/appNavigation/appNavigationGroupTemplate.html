@@ -1,0 +1,14 @@
+﻿<li class="appNavigationSelectableItem"
+    ng-click="clicked()">
+    <div class="appNoSelect">
+        <i class="fa {{icon}} appMenuIcon"></i>
+        {{label}}
+        <i ng-if="isVertical()"
+           class="fa fa-chevron-left appNavigationGroupIndicatorLeft" 
+           ng-class="{'fa-rotate-270' : isOpen}"></i>
+    </div>
+</li>
+<div ng-show="isOpen" 
+     class="appNavigationSubItems"
+    <ul ng-transclude></ul>
+</div>
